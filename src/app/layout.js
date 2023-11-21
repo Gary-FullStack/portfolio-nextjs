@@ -1,5 +1,6 @@
 import './globals.css'
 import localFont from "next/font/local";
+import Header from './components/Header/Header';
 
 const poppins = localFont({
   src: [
@@ -23,7 +24,13 @@ const poppins = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+
+        <Header />
+      
+        {children}
+      
+      </body>
     </html>
   )
 }

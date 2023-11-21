@@ -1,4 +1,5 @@
-import Image from 'next/image'
+'use client'
+
 import HomeComponent from './components/HomeComponent/HomeComponent'
 
 export default function Home() {
