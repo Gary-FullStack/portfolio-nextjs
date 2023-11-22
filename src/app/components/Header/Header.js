@@ -1,6 +1,7 @@
 "use client";
-import React, {useEffect, useState} from 'react'
-import Drawer from './DiagonalDrawer'
+import React, {useEffect, useState} from 'react';
+import Drawer from './DiagonalDrawer';
+import '../Header/DiagonalDrawer.css';
 
 
 
@@ -41,7 +42,7 @@ export default function Header() {
             />
         </div>
 
-        <header className={`${isScrolled ? "headerShow" : ""} fixed top-0 z-50 transition-all duration-0`}
+        <header className={`${isScrolled ? "headerShow" : ""} w-full fixed top-0 z-50 transition-all duration-0`}
             style={{
                 backgroundColor: isScrolled ? "#fff" : "transparent",
                 boxShadow: isScrolled ? "#48AFDE -10px 25px 50px 10px" : ""
