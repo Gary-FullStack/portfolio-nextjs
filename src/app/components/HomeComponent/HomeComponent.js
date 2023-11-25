@@ -11,11 +11,7 @@ const hind = Hind({
   weight: ["300", "400", "500", "600", "700"]
 })
 
-
-
 export default function HomeComponent() {
-
-
     // slick carosel settings
     var settings = {
       infinite: true,

@@ -1,8 +1,11 @@
-'use client'
-import React from 'react'
+'use client';
+import React from 'react';
+import { useRouter } from 'next/navigation';
 
 
 export default function SliderCard({item, index}) {
+
+  const router = useRouter();
 
 
 
@@ -19,7 +22,8 @@ export default function SliderCard({item, index}) {
         className='h-[200px] w-full lg:h-[350px] md:h-[250px] max-w-[100%] rounded-xl'        
          />
 
-          <div className="absolute bottom-[100px] lg:bottom-44 md:bottom-32 sm:bottom-[270px]  left-6 rounded-lg transition  duration-300 opacity-0 group-hover:opacity-100 bg-[#47626D] cursor-pointer flex items-center justify-center shadow-accent-color  hover:shadow-xl  hover:bg-[#47626D] w-10  h-10 md:w-12  md:h-12 lg:w-20 lg:h-20"          
+          <div onClick={() => router.push(`/portfoliodetail/${index}`)}
+          className="absolute bottom-[100px] lg:bottom-44 md:bottom-32 sm:bottom-[270px]  left-6 rounded-lg transition  duration-300 opacity-0 group-hover:opacity-100 bg-[#47626D] cursor-pointer flex items-center justify-center shadow-accent-color  hover:shadow-xl  hover:bg-[#47626D] w-10  h-10 md:w-12  md:h-12 lg:w-20 lg:h-20"          
           style={{boxShadow: "#48AFDE -10px 10px 20px 10px"}}
           >
 
