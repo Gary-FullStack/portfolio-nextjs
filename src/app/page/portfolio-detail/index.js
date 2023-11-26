@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import { Hind } from "next/font/google";
 import Image from "next/image";
 
-const hind = Hind({
+const hind = Hind({ 
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
@@ -34,18 +34,16 @@ export default function Index({ id, data, DataArray }) {
     <React.Fragment>
       <div className="overlay h-[400px] lg:top-[96px] sm:top-0 z-20 border-t border-gray-300"></div>
       <div className="relative">
-        <Image
-          src={data?.images[0]}
-          alt="bg photo"
-          className="h-[400px]  lg:mt-24 sm:mt-0  object-fill"
+        <Image src={data?.images[0]}
+          alt="portfolio photos"
+          className="h-[400px] lg:mt-24 sm:mt-0 object-fill"
+          style={{backgroundSize: "cover"}}
           width={0}
           height={20}
-          sizes="100vw"
-          style={{ width: '100%', backgroundSize: "cover" }} 
-        />
+        />        
       </div>
 
-      <div className="absolute z-30 top-[42px] sm:top-[200px] sm:left-[65px] justify-center  items-center w-full px-10 sm:w-3/4 xl:w-1/2 sm:px-0  sm:text-left">
+      <div className="absolute z-30 top-[42px] sm:top-[200px] sm:left-[65px] justify-center items-center w-full px-10 sm:w-3/4 xl:w-1/2 sm:px-0 sm:text-left">      
         <div className="container m-auto">
           <div className="max-w-[650px] w-[100%] m-auto">
             <p className="opacity-3 sm:text-left text-center font-sans text-[#223740] mt-20 lg:mt-10 md:-mt-10">
@@ -59,15 +57,15 @@ export default function Index({ id, data, DataArray }) {
       </div>
 
       <div
-        className="grid  grid-cols-12  relative space-x-0 lg:space-x-8"
+        className="grid grid-cols-12 relative space-x-0 lg:space-x-8"
         style={{
           background:
             "linear-gradient(90deg, rgba(238, 247, 251, 1) 58%, rgba(255, 255, 255, 1) 52%",
         }}
       >
-        <div className="col-span-12  lg:col-span-8 mb-20 scrol lg:px-0 sm:px-20">
+        <div className="col-span-12 lg:col-span-8 mb-20 scrol lg:px-0 sm:px-20">
           {data?.images.map((item) => (
-            <div key={item} className="flex justify-center lg:justify-end  items-center">
+            <div key={item} className="flex justify-center lg:justify-end items-center">
               <Image
                 src={item}
                 alt="portfolio photos"
@@ -78,9 +76,9 @@ export default function Index({ id, data, DataArray }) {
             </div>
           ))}
         </div>
-        <div className="col-span-12  lg:col-span-4 lg:px-0 sm:px-20">
-          <div className="mt-10 sm:mt-24 w-full lg:max-w-[300px] lg:px-1  px-3 sticky top-36 pb-14">
-            <h1 className="text-3xl  mb-4 text-[#48AFDE]">{data?.name}</h1>
+        <div className="col-span-12 lg:col-span-4 lg:px-0 sm:px-20">
+          <div className="mt-10 sm:mt-24 w-full lg:max-w-[300px] lg:px-1 px-3 sticky top-36 pb-14">
+            <h1 className="text-3xl mb-4 text-[#48AFDE]">{data?.name}</h1>
             <p className="text-[14px] font-sans mb-4 text-[#223740]">
               {data?.des}
             </p>
@@ -88,7 +86,6 @@ export default function Index({ id, data, DataArray }) {
               Project Descriptions
             </p>
             <p className="text-[14px] font-sans mb-4 text-[#223740]">
-              {" "}
               {data?.des1}
             </p>
 

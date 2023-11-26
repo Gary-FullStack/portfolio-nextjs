@@ -2,6 +2,7 @@
 import HomeComponent from './components/HomeComponent/HomeComponent'
 import {Hind} from 'next/font/google';
 import MySlider from './components/SliderCard/MySlider';
+import AboutMe from './components/AboutMe/AboutMe';
 
 const hind = Hind({
   subsets: ['latin'],
@@ -42,7 +43,10 @@ export default function Home() {
 
         <div style={{transform: 'translate(0px, -230px)'}}><MySlider /></div>
 
-      </div>      
+      </div> 
+
+      <AboutMe />
+
     </main>
   )
 }
