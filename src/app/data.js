@@ -1,22 +1,8 @@
-// this comtains the data we are gonna for AboutMe component and slider component 
+// this comtains the data we are gonna for AboutMe component and slider component
 
 export const AboutData = [
   {
     count: 1,
-    title: "UI / UX Designer",
-    img: "/first.svg",
-    array: [
-      "Information Architecture",
-      "Pen and Paper",
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Figma",
-      "Framer",
-      "Typography / Spacing / ...",
-    ],
-  },
-  {
-    count: 2,
     title: "Front-end Developer",
     img: "/second.svg",
     array: [
@@ -29,20 +15,35 @@ export const AboutData = [
       "REST API / GraphQL",
     ],
   },
+
   {
-    count: 3,
-    title: "Back-end Developer",
+    count: 2,
+    title: "Back-end and Developer",
     img: "/third.svg",
     array: [
       "NodeJS / Express.js",
       "MongoDB / MySQL / MSSQL",
+      "Firebase",
       "Next.js (API)",
       "PHP",
-      "WordPress Theme Dev",
-      "WordPress Plugin Dev.",
-      "ASP (Once upon a time)",
     ],
   },
+
+  {
+    count: 3,
+    title: "UI / UX Designer",
+    img: "/first.svg",
+    array: [
+      "Information Architecture",
+      "Pen and Paper",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Figma",
+      // "Framer",
+      // "Typography / Spacing / ...",
+    ],
+  },
+
   {
     count: 4,
     title: "DevOps and Admin",
@@ -59,17 +60,9 @@ export const AboutData = [
   },
   {
     count: 5,
-    title: "CMS and Headless CMS",
+    title: "CMS and Forums",
     img: "/fifth.svg",
-    array: [
-      "Contentful",
-      "GraphCMS",
-      "Strapi",
-      "WordPress (Gutenberg)",
-      "Directus",
-      "Sanity",
-      "SiteBaan (My Own)",
-    ],
+    array: ["XenForo", "Vbulletin", "phpBB", "WordPress (Elementor)"],
   },
   {
     count: 6,
@@ -79,16 +72,15 @@ export const AboutData = [
       "VSCode",
       "Git / Github",
       "Bash / Powershell",
-      "NPM / Yarn",
-      "Plesk Control Panel",
-      "Vercel / Stormkit / Netlify",
-      "Postman / Insomnia",
+      "NPM",
+      "Chrome Dev Tools",
+      "Vercel / Netlify",
+      "Postman",
     ],
   },
 ];
 
-
-// this is for the slider 
+// this is for the slider
 export const DataArray = [
   {
     title: "Personal Portfolio Website Using Reactjs",
@@ -103,7 +95,7 @@ export const DataArray = [
     des: "We buit this project for edubaba  Management Consultants.",
     des1: "",
 
-    images: ["/hotel01.png", ],
+    images: ["/hotel01.png"],
   },
   {
     title: "Food Delivery Company WebSite",
