@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Hind } from "next/font/google";
-import {AiFillMail} from "react-icons/ai";
+import { AiFillMail } from "react-icons/ai";
 import { FaHeadphones } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -97,8 +97,8 @@ export default function Page() {
             </div>
             <div className="flex justify-center text-center mt-[10px] md:w-[700px] ">
               <p className="text-white font-[300] text-cener text-xl">
-                Are you looking for a responsible, mature, full-stack
-                developer for your personal or e-commerce website or your web application
+                Are you looking for a responsible, mature, full-stack developer
+                for your personal or e-commerce website or your web application
                 projects? Just leave me a message and tell me how I can help.
               </p>
             </div>
@@ -106,8 +106,7 @@ export default function Page() {
         </div>
 
         <div className="px-[20px]">
-          <div className="sm:flex gap-[20px] mt-[50px] max-w-[1105px] w-full h-full">            
-
+          <div className="sm:flex gap-[20px] mt-[50px] max-w-[1105px] w-full h-full">
             <div className="flex flex-col flex-1 xl:flex-row gap-[20px]">
               <div
                 className="flex flex-col py-[35px] px-[45px] rounded-lg shadow-lg cursor-pointer transition-all transform duration-300 hover:bg-[#223740] hover:text-white hover:-translate-y-4 bg-white"
@@ -129,8 +128,8 @@ export default function Page() {
                 </div>
                 <div>
                   <p className="text-[#ef4e4e]">gary.fullstackdev@gmail.com</p>
-                </div>                
-              </div>              
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -140,21 +139,26 @@ export default function Page() {
         id="contact"
         className="flex flex-col xl:flex-row justify-center gap-[60px] mt-[10px] px-[30px] max-w-[1105px] m-auto p-10 mb-[-100px]"
       >
-        <div
-          className="hidden md:block relative w-[50%] xl:w-[50%] h-[550px] rounded-xl md:w-full lg:w-[50%] bg-center bg-cover"        
-        >
+        <div className="hidden md:block relative w-[50%] xl:w-[50%] h-[550px] rounded-xl md:w-full lg:w-[50%] bg-center bg-cover">
           <div className="absolute h-full w-full bg-gradient-to-t from-[#223740] via-[#223740] shadow-inner opacity-70"></div>
           <div className="absolute inset-0 flex flex-col gap-[20px] items-center justify-center text-white shadow-lg p-6">
             <div className="text-4xl xl:mt-[150px] mt-0 rounded-full px-[15px] py-[15px] bg-[#48AFDE] text-white">
               <FaHeadphones />
             </div>
-            <div className="font-semibold text-black text-[24px]">Contact me now!</div>
+            <div className="font-semibold text-black text-[24px]">
+              Contact me now!
+            </div>
             <div>
               <p className="text-center mb-[120px] font-[200] text-xl">
-                
-                I am seasoned Military veteran and full-stack developer with 2+ years of experience in the coding realm. My years on the job have honed my skills in HTML, CSS, JavaScript, React, Node, Express, MongoDB, Firebase, MySQL, and more. I am a quick learner and a team player who is always ready to learn new technologies and frameworks. If your STACK has a well annotated doc file then I CAN code with it.            
+                I am seasoned Military veteran and full-stack developer with 2+
+                years of experience in the coding realm. My years on the job
+                have honed my skills in HTML, CSS, JavaScript, React, Node,
+                Express, MongoDB, Firebase, MySQL, and more. I am a quick
+                learner and a team player who is always ready to learn new
+                technologies and frameworks. If your STACK has a well annotated
+                doc file then I CAN code with it.
               </p>
-            </div>            
+            </div>
           </div>
         </div>
         <div className="flex flex-col gap-[20px]">
@@ -163,7 +167,6 @@ export default function Page() {
           </div>
           <div className="">
             <p className="text-[30px] text-[#48AFDE]">
-              
               Contact me with a request to call you or we can chat via email.
             </p>
           </div>

@@ -183,24 +183,39 @@ export default function HomeComponent() {
                       alt="mongodb icon"
                       className="h-12"
                     />
+
                     <img
                       src="/reactjs.png"
                       alt="reactjs icon"
                       className="h-12"
                     />
-                    <img src="/nextjs.png" alt="nextjs icon" className="h-12" />
+
+                    <img src="/nextjs.png" 
+                    alt="nextjs icon" 
+                    className="h-12" />
+
                     <img
                       src="/expressjs.png"
                       alt="expressjs icon"
                       className="h-12"
                     />
-                    <img src="/nodejs.png" alt="nodejs icon" className="h-12" />
-                    <img src="/redux.png" alt="redux icon" className="h-12" />
+
+                    <img src="/nodejs.png"
+                     alt="nodejs icon" 
+                     className="h-12"                       
+                     />
+
+                    <img src="/redux.png" 
+                    alt="redux icon" 
+                    className="h-12" 
+                    />
+
                     <img
                       src="/firebase.png"
                       alt="firebase icon"
                       className="h-12"
                     />
+                    
                   </Slider>
                 </div>
               </div>

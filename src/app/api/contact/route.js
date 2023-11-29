@@ -12,7 +12,7 @@ export async function POST(request) {
       
       auth: {
         user: process.env.EMAIL,
-        pass: process.env.PASSWORD,
+        pass: process.env.PASSWORD
       },
     })
     
