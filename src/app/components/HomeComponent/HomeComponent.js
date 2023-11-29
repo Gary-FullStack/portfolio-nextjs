@@ -101,8 +101,9 @@ export default function HomeComponent() {
       <div
         id="home"
         style={{
-          backgroundImage:
-            "linear-gradient(62deg, #EEF7FB 0 50%, #48AFDE 0% 100%)",
+          backgroundImage: "linear-gradient(to right,white 65%, #48AFDE 35%)",
+          // backgroundImage:
+          //   "linear-gradient(62deg, #EEF7FB 0 50%, #48AFDE 0% 100%)",
           minHeight: "500px",
           maxHeight: "1200px",
           height: "100%",
@@ -157,9 +158,9 @@ export default function HomeComponent() {
                   decoding="async"
                   alt="coder gary's cartoonish self-foto"
                   width={0}
-                  height={0}
+                  height={59}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ width: "100%", height: "25%" }}
                 ></Image>
               </div>
             </div>

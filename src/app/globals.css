@@ -61,3 +61,12 @@ width: 100% !important;
 width: 100% !important;
 }
 }
+
+@media (min-width: 1280px) {
+    .headerShow {
+        background-color: #fff;
+        box-shadow: #48AFDE -1px 25px 50px 10px;
+
+    }
+
+}
